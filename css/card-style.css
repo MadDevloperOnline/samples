@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    background-color: silver;
+    font-style: italic;
+    color: #ffffff;
+    background: url("../images/header.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+header i {
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+
+header h1 {
+    font-weight: 400;
+    display: inline;
+}
+
+.shop {
+    float: left;
+}
+
+.product-container {
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid silver;
+}
+
+.product-img {
+    float: left;
+}
+
+.product-link {
+    margin-right: 20px;
+}
+
+.product-image {
+    width: 150px;
+    height: 150px;
+}
+.product-name {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.product-exp {
+    color: green;
+    font-size: 1.4em;
+}
+.product-spec {
+    color: black;
+    font-size: 1.4em;
+}
+
+.product-btn {
+    padding: 5px 15px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: brown;
+    color: #fff;
+    transition: color 0.3s;
+}
+.product-btn:hover {
+    background-color: rgb(200, 36, 36);
+}
+
+.title {
+    font-size: 2rem;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.text {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: chocolate;
+}
+
+p a {
+    text-decoration: underline;
+    color: crimson;
+}
+
+
+footer {
+    background-color: rgb(85, 84, 84);
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.left-list {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.right-list {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.left-list li {
+    display: inline-block;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+.right-list li {
+    display: inline-block;
+    margin: 30px 10px;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    /* z-index: 1; */
+    background-color: black;
+    color: #ffffff;
+    height: 100vh;
+    width: 20vw;
+    position: relative;
+    top: 0;
+    right: -20vw;
+    position: fixed;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1;
+    transition: left 0.7s ease-in-out;
+
+}
+
+.burger {
+    z-index: 100;
+}
+
+.check-box:checked ~ ul {
+    right: 0;
+    transition: right 0.7s ease-in-out;
+}
+
+
+.menu-item:first-child {
+    margin-top: 50px;
+}
+.menu-item {
+    margin: 20px auto;
+}
+.menu-item-link {
+    color: #ffffff;
+    font-size: 24px;
+    transition: all 0.3s;
+}
+.menu-item-link:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
